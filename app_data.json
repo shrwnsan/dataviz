@@ -1,0 +1,123 @@
+{
+  "yearlyGrowth": [
+    {
+      "Year": 2018,
+      "Solidity_Ethereum_Developers": 1084,
+      "Cosmos_Developers": 200,
+      "Solidity_Growth_Rate": 0.0,
+      "Cosmos_Growth_Rate": 0.0
+    },
+    {
+      "Year": 2019,
+      "Solidity_Ethereum_Developers": 25,
+      "Cosmos_Developers": 250,
+      "Solidity_Growth_Rate": -97.7,
+      "Cosmos_Growth_Rate": 25.0
+    },
+    {
+      "Year": 2020,
+      "Solidity_Ethereum_Developers": 2500,
+      "Cosmos_Developers": 400,
+      "Solidity_Growth_Rate": 9900.0,
+      "Cosmos_Growth_Rate": 60.0
+    },
+    {
+      "Year": 2021,
+      "Solidity_Ethereum_Developers": 4200,
+      "Cosmos_Developers": 1200,
+      "Solidity_Growth_Rate": 68.0,
+      "Cosmos_Growth_Rate": 200.0
+    },
+    {
+      "Year": 2022,
+      "Solidity_Ethereum_Developers": 5819,
+      "Cosmos_Developers": 2000,
+      "Solidity_Growth_Rate": 38.5,
+      "Cosmos_Growth_Rate": 66.7
+    },
+    {
+      "Year": 2023,
+      "Solidity_Ethereum_Developers": 7500,
+      "Cosmos_Developers": 1800,
+      "Solidity_Growth_Rate": 28.8,
+      "Cosmos_Growth_Rate": -10.0
+    },
+    {
+      "Year": 2024,
+      "Solidity_Ethereum_Developers": 8925,
+      "Cosmos_Developers": 1600,
+      "Solidity_Growth_Rate": 19.0,
+      "Cosmos_Growth_Rate": -11.1
+    }
+  ],
+  "usageFrequency": [
+    {
+      "Ecosystem": "Solidity/Ethereum",
+      "Daily_Usage": 43.7,
+      "Weekly_Usage": 32.9,
+      "Monthly_Usage": 18.1,
+      "Occasional_Usage": 5.3
+    },
+    {
+      "Ecosystem": "Cosmos",
+      "Daily_Usage": 15.2,
+      "Weekly_Usage": 28.5,
+      "Monthly_Usage": 35.8,
+      "Occasional_Usage": 20.5
+    }
+  ],
+  "financialMetrics": [
+    {
+      "Metric": "Average Salary",
+      "Solidity_Ethereum": "$150,000",
+      "Cosmos_Blockchain": "$90,000"
+    },
+    {
+      "Metric": "Entry Level Salary",
+      "Solidity_Ethereum": "$70,000",
+      "Cosmos_Blockchain": "$55,000"
+    },
+    {
+      "Metric": "Senior Level Salary",
+      "Solidity_Ethereum": "$225,000",
+      "Cosmos_Blockchain": "$140,000"
+    },
+    {
+      "Metric": "Job Postings (Monthly)",
+      "Solidity_Ethereum": "85",
+      "Cosmos_Blockchain": "12"
+    },
+    {
+      "Metric": "Market Size (2024)",
+      "Solidity_Ethereum": "$73.1M",
+      "Cosmos_Blockchain": "$15M"
+    },
+    {
+      "Metric": "Growth Rate (CAGR)",
+      "Solidity_Ethereum": "11.4%",
+      "Cosmos_Blockchain": "5.2%"
+    }
+  ],
+  "developerStats": {
+    "solidity": {
+      "totalDevelopers": 8925,
+      "fullTimeDevelopers": 2788,
+      "yearlyGrowth": "39%",
+      "marketDominance": "74%"
+    },
+    "cosmos": {
+      "totalDevelopers": 2000,
+      "fullTimeDevelopers": 416,
+      "yearlyGrowth": "-20.4%",
+      "marketDominance": "8%"
+    }
+  },
+  "sources": [
+    "Electric Capital Developer Report 2024",
+    "Solidity Developer Survey 2023",
+    "Ethereum Developer Activity Reports",
+    "Cosmos Ecosystem Reports 2024",
+    "Web3 Career Salary Reports",
+    "Blockchain Developer Market Analysis"
+  ]
+}

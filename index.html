@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solidity vs Cosmos Developer Ecosystem Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav__header">
+            <h3>Navigation</h3>
+            <button class="mobile-nav__close" id="closeNav">&times;</button>
+        </div>
+        <ul class="mobile-nav__list">
+            <li><a href="#hero" class="nav-link">Overview</a></li>
+            <li><a href="#charts" class="nav-link">Growth Charts</a></li>
+            <li><a href="#financial" class="nav-link">Financial Metrics</a></li>
+            <li><a href="#stats" class="nav-link">Developer Stats</a></li>
+            <li><a href="#tooling" class="nav-link">Tooling</a></li>
+            <li><a href="#sources" class="nav-link">Sources</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Section Indicators -->
+    <div class="section-indicators">
+        <div class="indicator" data-section="hero"></div>
+        <div class="indicator" data-section="charts"></div>
+        <div class="indicator" data-section="financial"></div>
+        <div class="indicator" data-section="stats"></div>
+        <div class="indicator" data-section="tooling"></div>
+        <div class="indicator" data-section="sources"></div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Solidity vs Cosmos Developer Ecosystem Analysis</h1>
+                <p class="hero-subtitle">Discover the 5x developer advantage in the Solidity/Ethereum ecosystem</p>
+                
+                <div class="hero-stats">
+                    <div class="stat-card solidity">
+                        <h3>8,925</h3>
+                        <p>Solidity Developers</p>
+                    </div>
+                    <div class="stat-card vs">
+                        <h3>vs</h3>
+                    </div>
+                    <div class="stat-card cosmos">
+                        <h3>1,600</h3>
+                        <p>Cosmos Developers</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section id="charts" class="charts-section">
+            <div class="section-header">
+                <h2>Developer Growth & Usage Patterns</h2>
+                <p>Interactive charts showing the evolution and usage patterns of both ecosystems</p>
+            </div>
+
+            <div class="charts-container">
+                <div class="chart-wrapper">
+                    <h3>Yearly Developer Growth (2018-2024)</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1749178371/pplx_code_interpreter/6559a326_ouwfgt.jpg" alt="Yearly developer growth comparison showing Solidity/Ethereum dominance over Cosmos ecosystem" class="chart-image">
+                </div>
+
+                <div class="chart-wrapper">
+                    <h3>Developer Usage Frequency Comparison</h3>
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1749178444/pplx_code_interpreter/007f2443_shkpkh.jpg" alt="Usage frequency comparison showing Solidity developers use their tools more frequently than Cosmos developers" class="chart-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Financial Metrics Section -->
+        <section id="financial" class="financial-section">
+            <div class="section-header">
+                <h2>Financial Metrics Comparison</h2>
+                <p>Comprehensive salary and market analysis between ecosystems</p>
+            </div>
+
+            <div class="card financial-card">
+                <div class="card__body">
+                    <div class="metrics-table">
+                        <div class="table-header">
+                            <div class="metric-name">Metric</div>
+                            <div class="solidity-col">Solidity/Ethereum</div>
+                            <div class="cosmos-col">Cosmos</div>
+                            <div class="advantage-col">Advantage</div>
+                        </div>
+                        
+                        <div class="table-row">
+                            <div class="metric-name">
+                                <strong>Average Salary</strong>
+                            </div>
+                            <div class="solidity-col">$150,000</div>
+                            <div class="cosmos-col">$90,000</div>
+                            <div class="advantage-col advantage-positive">+67%</div>
+                        </div>
+
+                        <div class="table-row">
+                            <div class="metric-name">
+                                <strong>Entry Level</strong>
+                            </div>
+                            <div class="solidity-col">$70,000</div>
+                            <div class="cosmos-col">$55,000</div>
+                            <div class="advantage-col advantage-positive">+27%</div>
+                        </div>
+
+                        <div class="table-row">
+                            <div class="metric-name">
+                                <strong>Senior Level</strong>
+                            </div>
+                            <div class="solidity-col">$225,000</div>
+                            <div class="cosmos-col">$140,000</div>
+                            <div class="advantage-col advantage-positive">+61%</div>
+                        </div>
+
+                        <div class="table-row">
+                            <div class="metric-name">
+                                <strong>Monthly Job Postings</strong>
+                            </div>
+                            <div class="solidity-col">85</div>
+                            <div class="cosmos-col">12</div>
+                            <div class="advantage-col advantage-positive">+608%</div>
+                        </div>
+
+                        <div class="table-row">
+                            <div class="metric-name">
+                                <strong>Market Size (2024)</strong>
+                            </div>
+                            <div class="solidity-col">$73.1M</div>
+                            <div class="cosmos-col">$15M</div>
+                            <div class="advantage-col advantage-positive">+387%</div>
+                        </div>
+
+                        <div class="table-row">
+                            <div class="metric-name">
+                                <strong>Growth Rate (CAGR)</strong>
+                            </div>
+                            <div class="solidity-col">11.4%</div>
+                            <div class="cosmos-col">5.2%</div>
+                            <div class="advantage-col advantage-positive">+119%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Developer Statistics Section -->
+        <section id="stats" class="stats-section">
+            <div class="section-header">
+                <h2>Developer Statistics Dashboard</h2>
+                <p>Comprehensive breakdown of developer metrics and ecosystem health</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card-large solidity">
+                    <div class="stat-header">
+                        <h3>Solidity/Ethereum</h3>
+                        <div class="ecosystem-indicator solidity-indicator"></div>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Developers</span>
+                            <span class="stat-value">8,925</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Full-time Developers</span>
+                            <span class="stat-value">2,788</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Yearly Growth</span>
+                            <span class="stat-value positive">+39%</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Market Dominance</span>
+                            <span class="stat-value">74%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stat-card-large cosmos">
+                    <div class="stat-header">
+                        <h3>Cosmos</h3>
+                        <div class="ecosystem-indicator cosmos-indicator"></div>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-item">
+                            <span class="stat-label">Total Developers</span>
+                            <span class="stat-value">2,000</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Full-time Developers</span>
+                            <span class="stat-value">416</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Yearly Growth</span>
+                            <span class="stat-value negative">-20.4%</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Market Dominance</span>
+                            <span class="stat-value">8%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tooling Ecosystem Section -->
+        <section id="tooling" class="tooling-section">
+            <div class="section-header">
+                <h2>Tooling Ecosystem Comparison</h2>
+                <p>Available development tools and infrastructure across both ecosystems</p>
+            </div>
+
+            <div class="tooling-grid">
+                <div class="tooling-card">
+                    <h3>Solidity/Ethereum Tools</h3>
+                    <div class="tool-categories">
+                        <div class="tool-category">
+                            <h4>Development Frameworks</h4>
+                            <ul>
+                                <li>Hardhat</li>
+                                <li>Truffle</li>
+                                <li>Foundry</li>
+                                <li>Remix IDE</li>
+                            </ul>
+                        </div>
+                        <div class="tool-category">
+                            <h4>Testing & Security</h4>
+                            <ul>
+                                <li>Waffle</li>
+                                <li>OpenZeppelin</li>
+                                <li>MythX</li>
+                                <li>Slither</li>
+                            </ul>
+                        </div>
+                        <div class="tool-category">
+                            <h4>Infrastructure</h4>
+                            <ul>
+                                <li>Infura</li>
+                                <li>Alchemy</li>
+                                <li>The Graph</li>
+                                <li>IPFS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tooling-card">
+                    <h3>Cosmos Tools</h3>
+                    <div class="tool-categories">
+                        <div class="tool-category">
+                            <h4>Development Frameworks</h4>
+                            <ul>
+                                <li>Cosmos SDK</li>
+                                <li>Starport</li>
+                                <li>CosmWasm</li>
+                                <li>Tendermint</li>
+                            </ul>
+                        </div>
+                        <div class="tool-category">
+                            <h4>Testing & Security</h4>
+                            <ul>
+                                <li>CosmWasm Plus</li>
+                                <li>Cosmos Test Suite</li>
+                                <li>IBC Testing</li>
+                            </ul>
+                        </div>
+                        <div class="tool-category">
+                            <h4>Infrastructure</h4>
+                            <ul>
+                                <li>IBC Protocol</li>
+                                <li>Keplr Wallet</li>
+                                <li>Cosmos Hub</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sources Section -->
+        <section id="sources" class="sources-section">
+            <div class="section-header">
+                <h2>Citations & Sources</h2>
+                <p>All data sources used in this comprehensive analysis</p>
+            </div>
+
+            <div class="card sources-card">
+                <div class="card__body">
+                    <div class="sources-list">
+                        <div class="source-item">
+                            <h4>Electric Capital Developer Report 2024</h4>
+                            <p>Comprehensive analysis of blockchain developer activity across ecosystems. Published Q1 2024.</p>
+                        </div>
+                        <div class="source-item">
+                            <h4>Solidity Developer Survey 2023</h4>
+                            <p>Annual survey of Solidity developers covering usage patterns, salaries, and ecosystem trends. Published December 2023.</p>
+                        </div>
+                        <div class="source-item">
+                            <h4>Ethereum Developer Activity Reports</h4>
+                            <p>Monthly reports tracking developer engagement, tool usage, and ecosystem growth metrics. Ongoing publication.</p>
+                        </div>
+                        <div class="source-item">
+                            <h4>Cosmos Ecosystem Reports 2024</h4>
+                            <p>Quarterly analysis of Cosmos ecosystem development, including developer count and project activity. Published throughout 2024.</p>
+                        </div>
+                        <div class="source-item">
+                            <h4>Web3 Career Salary Reports</h4>
+                            <p>Industry salary benchmarks for blockchain developers across different specializations and experience levels. Updated quarterly.</p>
+                        </div>
+                        <div class="source-item">
+                            <h4>Blockchain Developer Market Analysis</h4>
+                            <p>Market research covering job postings, hiring trends, and ecosystem market capitalization. Published monthly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
