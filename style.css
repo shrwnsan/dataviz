@@ -1121,3 +1121,36 @@ html {
 .stats-grid .stat-card-large:nth-child(2) { animation-delay: 0.2s; }
 .tooling-grid .tooling-card:nth-child(1) { animation-delay: 0.1s; }
 .tooling-grid .tooling-card:nth-child(2) { animation-delay: 0.2s; }
+
+/* Footer Styles */
+footer {
+    background-color: var(--color-surface);
+    text-align: center;
+    border-top: 1px solid var(--color-border);
+    color: var(--color-text-secondary);
+}
+
+footer {
+    padding: var(--space-24);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: var(--font-size-sm);
+    text-align: left;
+}
+
+.footer-content p:last-child {
+    text-align: right;
+}
+
+.footer-content a {
+    color: var(--color-primary);
+}
