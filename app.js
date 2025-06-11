@@ -21,8 +21,10 @@ function closeMobileNav() {
 }
 
 // Event Listeners for Mobile Navigation
-hamburger.addEventListener('click', toggleMobileNav);
-closeNav.addEventListener('click', closeMobileNav);
+document.addEventListener('DOMContentLoaded', () => {
+    hamburger.addEventListener('click', toggleMobileNav);
+    closeNav.addEventListener('click', closeMobileNav);
+});
 
 // Close mobile nav when clicking on a link
 navLinks.forEach(link => {
