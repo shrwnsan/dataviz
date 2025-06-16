@@ -1,12 +1,12 @@
-# Dataviz Tokenomics
+# Dataviz
 
-This project is a data visualization tool that explores the tokenomics of various cryptocurrencies. It provides interactive charts and graphs to help users understand the distribution, supply, and usage of tokens.
+This project is a data visualization tool that explores various interesting topics, such as tokenomics of cryptocurrencies, ways of working statistics, and more. It provides interactive charts and graphs to help users understand the data.
 
 ## Setup
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/shrwnsan/dataviz-tokenomics.git`
+1. Clone the repository: `git clone https://github.com/shrwnsan/dataviz.git`
 2. Install the dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open the project in your browser at `http://localhost:3000`
@@ -28,7 +28,7 @@ This project is licensed under the MIT License.
 If you use this project in your own work, please attribute the original author by including the following text:
 
 ```
-Based on the Dataviz Tokenomics project by [shrwnsan](https://github.com/shrwnsan/dataviz-tokenomics).
+Based on the Dataviz project by [shrwnsan](https://github.com/shrwnsan/dataviz).
 ```
 
 [MIT License](https://opensource.org/licenses/MIT)
